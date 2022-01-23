@@ -23,7 +23,7 @@
                                 class="block text-gray-700 text-sm font-bold mb-2">Deskripsi Hewan Ternak</label>
                             <textarea
                                 class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                                id="derkripsi_ternak" wire:model="deskripsi_ternak"
+                                id="derkripsi_ternak" rows="10" wire:model="deskripsi_ternak"
                                 placeholder="Masukan Deskripsi Hewan Ternak"></textarea>
                             @error('deskripsi_ternak') <span class="text-red-500">{{ $message }}</span>@enderror
                         </div>                     
