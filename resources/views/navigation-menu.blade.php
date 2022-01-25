@@ -27,6 +27,9 @@
                     <x-jet-nav-link href="{{ route('pakans') }}" :active="request()->routeIs('pakans')">
                         Pakan
                     </x-jet-nav-link>
+                    <x-jet-nav-link href="{{ route('about') }}" :active="request()->routeIs('about')">
+                        About
+                    </x-jet-nav-link>
                 </div>
             </div>
 
